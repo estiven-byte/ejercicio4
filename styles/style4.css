@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 5px;
+}
+
+/* Tarjeta principal */
+.card {
+  width: 600px;
+  max-width: 100%;
+  background-color: #c1ff92;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(255, 119, 0, 0.15);
+}
+
+/* Encabezado negro */
+.Encabezado {
+  background-color: #ff8c00;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  text-align: center;
+}
+
+.Encabezado h1 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Cuerpo de la tarjeta */
+.contenido {
+  padding: 15px 12px;
+  min-height: 200px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Pie de página gris */
+.footer {
+  background-color: #a0a0a0;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 15px;
+  font-weight: 500;
+}
